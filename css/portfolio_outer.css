@@ -1,0 +1,139 @@
+.outer_title {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    margin-top: 30px;
+    cursor: default;
+    font-weight: 900;
+}
+.sec_title {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: grey;
+    padding: 10px;
+}
+.item {
+    border-radius: 15px;
+    padding: 5px 20px;
+    background: rgba(0,0,0,0.1);
+    color: gray;
+    cursor: pointer;
+}
+
+.select_menu {
+    background: #cfbeb4;
+    color: #fff;
+}
+
+.content_box {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+.content {
+    width: calc(100% / 4);
+    padding: 10px;
+    box-sizing: border-box;
+    aspect-ratio: 1/1.35;
+    font-family: 'omyu_pretty';
+}
+.content_img {
+    width: 100%;
+    aspect-ratio: 1/1.3;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+}
+.content1, .content2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+.content2 {
+    opacity: 0;
+}
+.content_img:hover .content2 {
+    opacity: 1;
+}
+.content img {
+    width: 100%;
+}
+
+.txt1 {
+    font-weight: 900;
+    padding: 10px 0;
+
+}
+.price_box {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+.final_price {
+    font-size: 20px;
+}
+.price {
+    text-decoration: line-through;
+    color: gray;
+}
+.sale_p {
+    color: #f36e6e;
+    font-weight: 700;
+}
+
+
+.new_more {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    background: #d6bdb3;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+    .outer_title {
+        margin: 0;
+    }
+    .sec_title {
+        gap: 10px;
+        padding: 10px 0;
+        font-size: 0.7em;
+    }
+    .item {
+        padding: 5px 15px;
+    }
+    .content {
+        width: calc(100% / 2);
+    }
+    .content_box {
+        padding: 10px;
+    }
+    .txt1 {
+        font-size: 0.9em;
+    }
+    .price_box {
+        gap: 7px;
+    }
+    .final_price {
+        font-size: 0.8em;
+    }
+    .price {
+        font-size: 0.5em;
+    }
+    .sale_p {
+        font-size: 0.7em;
+    }
+}

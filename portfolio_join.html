@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE, MIDAS.B</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="icon" href="./img/tab_icon.ico">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/portfolio_join.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <div class="top_banner">
+            <div class="tb_item"><span><img src="./img/coupon_icon.png" alt=""></span>회원가입시 2,000원 쿠폰 증정</div>
+            <div class="tb_item"><span><img src="./img/free_icon.png" alt=""></span>50,000원 이상 무료배송</div>
+            <div class="tb_item"><span><img src="./img/bestreview_icon.png" alt=""></span>BEST REVIEW 10% 할인 쿠폰 증정<span><img src="./img/bestreview_icon.png" alt=""></div>
+            <!-- <div class="tb_btn">X</div> -->
+        </div>
+        <header class="header">
+            <div class="h_top">
+                <ul class="h_box1">
+                    <li><a href="./portfolio_login.html">LOGIN</a></li>
+                    <li><a href="./portfolio_join.html">JOIN</a></li>
+                    <li><a href="./portfolio_login.html">ORDER</a></li>
+                    <li><a href="./portfolio_login.html">MYPAGE</a></li>
+                </ul>
+                <div class="logo"><a href="./index.html.html"><img src="./img/logo.jpg" alt=""></a></div>
+                <div class="h_box2">
+                    <div class="search_box">
+                        <input type="text" class="search">
+                        <img src="./img/search.png" alt="">
+                    </div>
+                    <div class="cart_box">
+                        <a href="#">
+                            <img src="./img/cart.png" alt="" class="cart">
+                            <div class="cart_count">0</div>
+                        </a>
+                    </div>
+                    <div class="menu3">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                    <div class="menu_pan" id="menu_pan">
+                        <div class="login_box">
+                            <a href="./portfolio_login.html"><div class="pan_login_txt">login</div></a>
+                            <a href="./portfolio_join.html"><div class="pan_login_txt">join</div></a>
+                        </div>
+                        <div class="menu_pan_1">SHOPPING</div>
+                        <a href="./portfolio_login.html"><div class="pan_txt">마이페이지</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">장바구니</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">주문조회</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">배송조회</div></a>
+                        <div class="menu_pan_1">COMMUNITY</div>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">NOTICE</div></a>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">REVIEW</div></a>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">Q&A</div></a>
+                        <div class="menu_pan_1">CS CENTER</div>
+                        <div class="pan_txt">1544-5751</div>
+                        <div class="pan_txt">평일 10:00-17:00</div>
+                        <div class="pan_txt">(lunch 13:00-14:30)</div>
+                        <div class="pan_txt">sat.sun.holiday off</div>
+                        <div class="menu_pan_1">FOLLOW US</div>
+                        <div class="follow_icon_box">
+                            <a href="https://www.instagram.com/midas_b/" target="_blank"><img src="./img/instagram_icon.png" alt=""></a>
+                            <a href="https://www.facebook.com/www.midasb.co.kr/" target="_blank"><img src="./img/facebook_icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="nav_ul">
+                    <li class="nav_li">
+                        <a href="./index.html.html">BEST</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./index.html.html">NEW</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">아우터</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">코트</a></li>
+                            <li class="sub_menu_li"><a href="">자켓</a></li>
+                            <li class="sub_menu_li"><a href="">가디건</a></li>
+                            <li class="sub_menu_li"><a href="">점퍼</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">원피스</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">미니</a></li>
+                            <li class="sub_menu_li"><a href="">미디/롱</a></li>
+                            <li class="sub_menu_li"><a href="">원피스</a></li>
+                            <li class="sub_menu_li"><a href="">투피스</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">상의</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">니트</a></li>
+                            <li class="sub_menu_li"><a href="">티셔츠</a></li>
+                            <li class="sub_menu_li"><a href="">슬리브리스</a></li>
+                            <li class="sub_menu_li"><a href="">셔츠</a></li>
+                            <li class="sub_menu_li"><a href="">블라우스</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">바지</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">데님</a></li>
+                            <li class="sub_menu_li"><a href="">슬랙스</a></li>
+                            <li class="sub_menu_li"><a href="">숏팬츠</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">스커트</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">미니</a></li>
+                            <li class="sub_menu_li"><a href="">미디/롱</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_notice.html">COMMUNITY</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">NOTICE</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">REVIEW</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">FAQ</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">Q&A</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <main class="container">
+            <div class="join_title">회원가입</div>
+            <form action="#" id="join_form">
+
+                <div class="join_txt">아이디</div>
+                <input type="text" class="txt_input" required>
+                <div class="join_txt1">(영문소문자/숫자, 4~16자)</div>
+
+                <div class="join_txt">비밀번호</div>
+                <input type="password" class="txt_input" id="password1" required>
+                <div class="join_txt1">(영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자)</div>
+
+                <div class="join_txt">비밀번호 확인</div>
+                <input type="password" class="txt_input" id="password2" required>
+
+                <div class="join_txt">이름</div>
+                <input type="text" class="txt_input" required>
+
+                <div class="join_txt">휴대전화</div>
+                <div class="phone_box">
+                    <select name="phone" id="phobe" class="txt_input phone_txt_input">
+                        <option value="select">010</option>
+                        <option value="seoul">02</option>
+                        <option value="">031</option>
+                    </select>
+                    <div class="phone_bet">-</div>
+                    <input type="text" class="txt_input phone_txt_input">
+                    <div class="phone_bet">-</div>
+                    <input type="text" class="txt_input phone_txt_input">
+                </div>
+
+                <div class="join_txt">이메일</div>
+                <input type="text" class="txt_input">
+
+                <div class="checkbox_group">
+                    <div class="check">
+                        <input type="checkbox" class="chk_all">
+                        <div class="check_txt">전체 동의</div>
+                    </div>
+                    <div class="join_txt1">이용약관 및 개인정보수집 및 이용, 쇼핑정보 수신(선택)에 모두 동의합니다.</div>
+                    <div class="under_line"></div>
+
+                    <input type="checkbox" name="open1" id="open1" class="none">
+                    <div class="check">
+                        <input type="checkbox" class="chk" required>
+                        <div class="check_txt">이용약관에 동의합니다. (필수)</div>
+                        <label for="open1"><div class="rotate">></div></label>
+                    </div>
+                    
+                    <div class="txt_box1">
+                        <p class="txt_p">** 해당 서식은 공정거래위원회에서 제공하는 전자상거래 표준 약관으로 쇼핑몰 운영형태에 따른 수정이 필요할 수 있습니다. 쇼핑몰에 적용하시기 전 쇼핑몰 운영 사항 등을 확인하시고 관련 법령 등을 감안하여 적절한 내용을 반영하여 이용하시기 바랍니다. **
+ 
+                            제1조(목적)
+                            이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                    </div>
+
+
+                    <input type="checkbox" name="open2" id="open2" class="none">
+                    <div class="check">
+                        <input type="checkbox" class="chk" required>
+                        <div class="check_txt">개인정보처리방침에 동의합니다. (필수)</div>
+                        <label for="open2"><div class="rotate">></div></label>
+                    </div>
+                    <div class="txt_box2">
+                        <p class="txt_p">** 해당 서식은 공정거래위원회에서 제공하는 전자상거래 표준 약관으로 쇼핑몰 운영형태에 따른 수정이 필요할 수 있습니다. 쇼핑몰에 적용하시기 전 쇼핑몰 운영 사항 등을 확인하시고 관련 법령 등을 감안하여 적절한 내용을 반영하여 이용하시기 바랍니다. **
+ 
+                            제1조(목적)
+                            이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                    </div>
+
+                    <input type="checkbox" name="open3" id="open3" class="none">
+                    <div class="check">
+                        <input type="checkbox" class="chk">
+                        <div class="check_txt">SMS 수신 동의 (선택)</div>
+                        <label for="open3"><div class="rotate">></div></label>
+                    </div>
+                    <div class="txt_box3">
+                        <p class="txt_p">** 해당 서식은 공정거래위원회에서 제공하는 전자상거래 표준 약관으로 쇼핑몰 운영형태에 따른 수정이 필요할 수 있습니다. 쇼핑몰에 적용하시기 전 쇼핑몰 운영 사항 등을 확인하시고 관련 법령 등을 감안하여 적절한 내용을 반영하여 이용하시기 바랍니다. **
+ 
+                            제1조(목적)
+                            이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                    </div>
+
+                    <input type="checkbox" name="open4" id="open4" class="none">
+                    <div class="check">
+                        <input type="checkbox" class="chk">
+                        <div class="check_txt">이메일 수신 동의 (선택)</div>
+                        <label for="open4"><div class="rotate">></div></label>
+                    </div>
+                    <div class="txt_box4">
+                        <p class="txt_p">** 해당 서식은 공정거래위원회에서 제공하는 전자상거래 표준 약관으로 쇼핑몰 운영형태에 따른 수정이 필요할 수 있습니다. 쇼핑몰에 적용하시기 전 쇼핑몰 운영 사항 등을 확인하시고 관련 법령 등을 감안하여 적절한 내용을 반영하여 이용하시기 바랍니다. **
+ 
+                            제1조(목적)
+                            이 약관은 OO 회사(전자상거래 사업자)가 운영하는 OO 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                    </div>
+                </div>
+                
+                <input type="submit" value="회원가입" class="join_btn" onclick="test();">
+            </form>
+        </main>
+    
+        <footer class="footer">
+            <div class="f_box f_box1">
+                <p>CS CENTER</p>
+                <p>1544-5751</p>
+                <p>평일 10:00-17:00</p>
+                <p>(LUNCH 13:00-14:30)</p>
+                <p>SAT.SUN.HOLIDAY OFF</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box2">
+                <p>BANK ACCOUNT</p>
+                <p>주문서 작성시 자동 안내됩니다 :)</p>
+                <p>예금주 : (주)내셔널비</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box3">
+                <p>RETURN / EXCHANGE</p>
+                <p>교환 및 반품주소</p>
+                <p>우편번호 : 02858</p>
+                <p>서울 성북구 안암동3가 101번지</p>
+                <p>1층 CJ대한통운 마이더스비 담당자앞</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box4">
+                <p>INFO</p>
+                <p>회사명 : 주식회사 내셔널비  브랜드명 : 마이더스비  대표 : 정덕헌</p>
+                <p>주소 : 서울시 노원구 공릉동 90-4 우토파크프라자 101호</p>
+                <p>사업자등록번호 : 209-81-61618 [사업자정보확인]</p>
+                <p>통신판매신고번호 : 2021-서울노원-1685</p>
+                <p>이메일 : midas_b@naver.com [제휴전용]</p>
+                <p>개인정보관리책임자 : 원유림</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./js/common.js"></script>
+    <script>
+        function test() {
+            var p1 = document.getElementById('password1').value;
+            var p2 = document.getElementById('password2').value;
+            if( p1 != p2 ) {
+                alert("비밀번호가 일치 하지 않습니다");
+                return false;
+            } 
+        }
+
+
+        $(document).ready(function() {
+            $('.chk_all').click(function() {
+                // true면 화면에 지금 체크가 된 상태 
+                if($(this).is(':checked')) { // 화면에 넣고 결과 출력 
+                    $('.chk').prop('checked', true)
+                } 
+                else {
+                    $('.chk').prop('checked', false)
+                }
+            });
+
+            
+            // $(document).on('click', '.chk', function() {
+            $('chk').click(function() {
+                console.log($(this).is(':checked'))
+            });
+
+            $('input[name="open1"]').click(function() {
+                if($(this).is(':checked')) { // 화면에 넣고 결과 출력 
+                    $('.txt_box').css({
+                        height: '100px'
+                    })
+                } 
+                else {
+                    $('.txt_box').css({
+                        height: 0
+                    })
+                }
+            })
+
+        })
+    </script>
+</body>
+</html>

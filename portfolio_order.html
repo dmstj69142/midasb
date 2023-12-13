@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE, MIDAS.B</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="icon" href="./img/tab_icon.ico">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/portfolio_order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="top_banner">
+            <div class="tb_item"><span><img src="./img/coupon_icon.png" alt=""></span>회원가입시 2,000원 쿠폰 증정</div>
+            <div class="tb_item"><span><img src="./img/free_icon.png" alt=""></span>50,000원 이상 무료배송</div>
+            <div class="tb_item"><span><img src="./img/bestreview_icon.png" alt=""></span>BEST REVIEW 10% 할인 쿠폰 증정<span><img src="./img/bestreview_icon.png" alt=""></div>
+            <!-- <div class="tb_btn">X</div> -->
+        </div>
+        <header class="header">
+            <div class="h_top">
+                <ul class="h_box1">
+                    <li><a href="./portfolio_login.html">LOGIN</a></li>
+                    <li><a href="./portfolio_join.html">JOIN</a></li>
+                    <li><a href="./portfolio_login.html">ORDER</a></li>
+                    <li><a href="./portfolio_login.html">MYPAGE</a></li>
+                </ul>
+                <div class="logo"><a href="./index.html.html"><img src="./img/logo.jpg" alt=""></a></div>
+                <div class="h_box2">
+                    <div class="search_box">
+                        <input type="text" class="search">
+                        <img src="./img/search.png" alt="">
+                    </div>
+                    <div class="cart_box">
+                        <a href="#">
+                            <img src="./img/cart.png" alt="" class="cart">
+                            <div class="cart_count">0</div>
+                        </a>
+                    </div>
+                    <div class="menu3">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                    <div class="menu_pan" id="menu_pan">
+                        <div class="login_box">
+                            <a href="./portfolio_login.html"><div class="pan_login_txt">login</div></a>
+                            <a href="./portfolio_join.html"><div class="pan_login_txt">join</div></a>
+                        </div>
+                        <div class="menu_pan_1">SHOPPING</div>
+                        <a href="./portfolio_login.html"><div class="pan_txt">마이페이지</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">장바구니</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">주문조회</div></a>
+                        <a href="./portfolio_login.html"><div class="pan_txt">배송조회</div></a>
+                        <div class="menu_pan_1">COMMUNITY</div>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">NOTICE</div></a>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">REVIEW</div></a>
+                        <a href="./portfolio_notice.html"><div class="pan_txt">Q&A</div></a>
+                        <div class="menu_pan_1">CS CENTER</div>
+                        <div class="pan_txt">1544-5751</div>
+                        <div class="pan_txt">평일 10:00-17:00</div>
+                        <div class="pan_txt">(lunch 13:00-14:30)</div>
+                        <div class="pan_txt">sat.sun.holiday off</div>
+                        <div class="menu_pan_1">FOLLOW US</div>
+                        <div class="follow_icon_box">
+                            <a href="https://www.instagram.com/midas_b/" target="_blank"><img src="./img/instagram_icon.png" alt=""></a>
+                            <a href="https://www.facebook.com/www.midasb.co.kr/" target="_blank"><img src="./img/facebook_icon.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="nav_ul">
+                    <li class="nav_li">
+                        <a href="./index.html.html">BEST</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./index.html.html">NEW</a>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">아우터</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">코트</a></li>
+                            <li class="sub_menu_li"><a href="">자켓</a></li>
+                            <li class="sub_menu_li"><a href="">가디건</a></li>
+                            <li class="sub_menu_li"><a href="">점퍼</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">원피스</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">미니</a></li>
+                            <li class="sub_menu_li"><a href="">미디/롱</a></li>
+                            <li class="sub_menu_li"><a href="">원피스</a></li>
+                            <li class="sub_menu_li"><a href="">투피스</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">상의</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">니트</a></li>
+                            <li class="sub_menu_li"><a href="">티셔츠</a></li>
+                            <li class="sub_menu_li"><a href="">슬리브리스</a></li>
+                            <li class="sub_menu_li"><a href="">셔츠</a></li>
+                            <li class="sub_menu_li"><a href="">블라우스</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">바지</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">데님</a></li>
+                            <li class="sub_menu_li"><a href="">슬랙스</a></li>
+                            <li class="sub_menu_li"><a href="">숏팬츠</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_outer.html">스커트</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="">미니</a></li>
+                            <li class="sub_menu_li"><a href="">미디/롱</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_li">
+                        <a href="./portfolio_notice.html">COMMUNITY</a>
+                        <ul class="sub_menu">
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">NOTICE</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">REVIEW</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">FAQ</a></li>
+                            <li class="sub_menu_li"><a href="./portfolio_notice.html">Q&A</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <main class="container">
+            <div class="order_box">
+                <div class="order_img"></div>
+                <div class="order_txt_box">
+                    <div class="order_txt_title">모먼트 베이직 슬림 무지 티셔츠</div>
+                    <div class="order_price_box">
+                        <div class="order_o_price">23,000원</div>
+                        <div class="order_f_price">13,800원</div>
+                        <div class="order_sale_p">40% ↓</div>
+                    </div>
+                    <div class="order_txt">#m.b.s! 하루종일 편안하게 *.* 기본1+포인트1 조합으로 소장해보세요!</div>
+                    <div class="pay_box">
+                        <table>
+                            <tr>
+                                <td width="100">적립금</td>
+                                <td>140원 (1%)</td>
+                            </tr>
+                            <tr>
+                                <td>배송비</td>
+                                <td>2,500원 (50,0000원 이상 구매 시 무료)</td>
+                            </tr>
+                            <tr>
+                                <td>컬러</td>
+                                <td>
+                                    <div class="circle"></div>
+                                    <div class="circle antiquewhite"></div>
+                                    <div class="circle burlywood"></div>
+                                    <div class="circle gray"></div>
+                                    <div class="circle navy"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>사이즈</td>
+                                <td>
+                                    <select name="size" id="size">
+                                        <option value="select">[필수] 옵션을 선택해주세요</option>
+                                        <option value="select1">화이트</option>
+                                        <option value="select2">블랙</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>수량</td>
+                                <td>
+                                    <input type="button" value="-" id="minus" onclick="minus();">
+                                    <input type="text" value="1" id="count" readonly>
+                                    <input type="button" value="+" id="plus" onclick="plus();">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="total_box">
+                        <!-- <div class="total_txt1">TOTAL</div>
+                        <div class="total_count">(1개)</div>
+                        <div class="total_price">13,800원</div> -->
+                    </div>
+                    <div class="button_box">
+                        <input type="button" value="BUY NOW">
+                        <div class="box_2"><img src="./img/cart2.png" alt=""></div>
+                        <div class="box_2"><img src="./img/heart.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="under_line"></div>
+
+            <div class="recommended_item_box">
+                <div class="recommended_item">이 상품과 함께 가장 많이 본 상품</div>
+                <div class="recommended_item_content">
+                    <section id="new_arr">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/content1.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content2.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content3.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content4.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content5.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content6.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content7.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content8.gif" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/content5.gif" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+            
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="txt_box" id="detail">
+                <ul class="txt_box_ul">
+                    <li class="txt_box_li pick"><a href="#detail">DETAIL</a></li>
+                    <li class="txt_box_li"><a href="#review">REVIEW</a></li>
+                    <li class="txt_box_li"><a href="#qa">Q&A</a></li>
+                    <li class="txt_box_li"><a href="#guide">GUIDE</a></li>
+                </ul>
+            </div>
+            
+            <div class="order_detail">
+                <img src="./img/order_detail.jpg" alt="">
+                <img src="./img/order_detail2.jpg" alt="">
+                <img src="./img/order_detail3.jpg" alt="">
+                <img src="./img/order_detail4.jpg" alt="">
+                <img src="./img/order_detail5.jpg" alt="">
+                <img src="./img/order_detail6.jpg" alt="">
+                <img src="./img/order_detail7.jpg" alt="">
+            </div>
+            
+            <div class="txt_box" id="review">
+                <ul class="txt_box_ul">
+                    <li class="txt_box_li"><a href="#detail">DETAIL</a></li>
+                    <li class="txt_box_li pick"><a href="#review">REVIEW</a></li>
+                    <li class="txt_box_li"><a href="#qa">Q&A</a></li>
+                    <li class="txt_box_li"><a href="#guide">GUIDE</a></li>
+                </ul>
+            </div>
+
+            <div class="order_review">
+                <img src="./img/order_review.jpg" alt="">
+            </div>
+
+            <div class="txt_box" id="qa">
+                <ul class="txt_box_ul">
+                    <li class="txt_box_li"><a href="#detail">DETAIL</a></li>
+                    <li class="txt_box_li"><a href="#review">REVIEW</a></li>
+                    <li class="txt_box_li pick"><a href="#qa">Q&A</a></li>
+                    <li class="txt_box_li"><a href="#guide">GUIDE</a></li>
+                </ul>
+            </div>
+
+            <div class="order_qa">
+                <table class="qa_table">
+                    <tr>
+                        <th class="table_th_td">번호</th>
+                        <th class="table_th_td">제목</th>
+                        <th class="table_th_td">작성자</th>
+                        <th class="table_th_td">날짜</th>
+                    </tr>
+                    <tr>
+                        <td class="table_th_td">1</td>
+                        <td class="table_th_td">교환/반품 어떻게 하나요?</td>
+                        <td class="table_th_td">홍쌤</td>
+                        <td class="table_th_td">2023-09-22</td>
+                    </tr>
+                    <tr>
+                        <td class="table_th_td">2</td>
+                        <td class="table_th_td">탈퇴할 때 사용했던 아이디로 재가입이 가능한가요?</td>
+                        <td class="table_th_td">홍쌤</td>
+                        <td class="table_th_td">2023-09-22</td>
+                    </tr>
+                    <tr>
+                        <td class="table_th_td">3</td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                    </tr>
+                    <tr>
+                        <td class="table_th_td">4</td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                    </tr>
+                    <tr>
+                        <td class="table_th_td">5</td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                        <td class="table_th_td"></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="txt_box" id="guide">
+                <ul class="txt_box_ul">
+                    <li class="txt_box_li"><a href="#detail">DETAIL</a></li>
+                    <li class="txt_box_li"><a href="#review">REVIEW</a></li>
+                    <li class="txt_box_li"><a href="#qa">Q&A</a></li>
+                    <li class="txt_box_li pick"><a href="#guide">GUIDE</a></li>
+                </ul>
+            </div>
+
+            <div class="order_guide">
+                <img src="./img/guide.jpg" alt="">
+            </div>
+
+        </main>
+    
+        <footer class="footer">
+            <div class="f_box f_box1">
+                <p>CS CENTER</p>
+                <p>1544-5751</p>
+                <p>평일 10:00-17:00</p>
+                <p>(LUNCH 13:00-14:30)</p>
+                <p>SAT.SUN.HOLIDAY OFF</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box2">
+                <p>BANK ACCOUNT</p>
+                <p>주문서 작성시 자동 안내됩니다 :)</p>
+                <p>예금주 : (주)내셔널비</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box3">
+                <p>RETURN / EXCHANGE</p>
+                <p>교환 및 반품주소</p>
+                <p>우편번호 : 02858</p>
+                <p>서울 성북구 안암동3가 101번지</p>
+                <p>1층 CJ대한통운 마이더스비 담당자앞</p>
+            </div>
+            <div class="f_line"></div>
+            <div class="f_box f_box4">
+                <p>INFO</p>
+                <p>회사명 : 주식회사 내셔널비  브랜드명 : 마이더스비  대표 : 정덕헌</p>
+                <p>주소 : 서울시 노원구 공릉동 90-4 우토파크프라자 101호</p>
+                <p>사업자등록번호 : 209-81-61618 [사업자정보확인]</p>
+                <p>통신판매신고번호 : 2021-서울노원-1685</p>
+                <p>이메일 : midas_b@naver.com [제휴전용]</p>
+                <p>개인정보관리책임자 : 원유림</p>
+            </div>
+        </footer>
+        <div class="top_btn"><a href="#">TOP</a></div>
+    </div>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/portfolio_order.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
