@@ -19,7 +19,7 @@
 	- 반응형 
 
 - 로그인 페이지 / 회원가입 페이지
-  	<img src="./img/loginpage.png" style="width: 30%;"><span><img src="./img/joinpage.png"></span>
+  	<img src="./img/main2.png">
 	- 아이디, 비밀번호, 비밀번호 확인, 이름, 필수약관 동의 필수 입력 
 	- 비밀번호와 비밀번호 확인 일치해야 회원가입 버튼 누르기 가능 
 	- 이용약관 옆에 아이콘 누르면 약관 확인 가능 
